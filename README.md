@@ -3,7 +3,7 @@ Project Name | Description
 -------------|------------
 Project 1 | Compile and run Typecript file in `node.js`
 Project 2 | Run Typescript file in Modern `Browser`
-Project 3 | 
+Project 3 | Sort array, linked-list and string
 
 
 ### What is Typescript?
