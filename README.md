@@ -1,9 +1,9 @@
 ### Project Structure
-Project Name | Description
--------------|------------
-Project 1 | Compile and run Typecript file in `node.js`
-Project 2 | Run Typescript file in Modern `Browser`
-Project 3 | Sort array, linked-list and string; OOP
+| Project Name | Description                                 |
+| ------------ | ------------------------------------------- |
+| Project 1    | Compile and run Typecript file in `node.js` |
+| Project 2    | Run Typescript file in Modern `Browser`     |
+| Project 3    | Sort array, linked-list and string; OOP     |
 
 
 ### What is Typescript?
@@ -91,13 +91,19 @@ big = 2;
 
 ### Tuple
 - Different from `tuple` in python
-- Different from multiple types
+- Different from multiple types `|`
 - It define the relationship between postion and type - `Order Matters`
+- It define an `array` in a strict way
 ```javascript
 var person: [number, string, boolean] = [1, "Steve", true];
 
 var employee: [number, string][];
 employee = [[1, "Steve"], [2, "Bill"], [3, "Jeff"]];
+```
+```javascript
+type MatchTable: [string, number, number, string, boolean];
+const match = (e:number):MatchTable =>{ sth } 
+// MatchTable[] is also usable.
 ```
 
 ### Interface
