@@ -4,6 +4,8 @@
 | Project 1    | Compile and run Typecript file in `node.js` |
 | Project 2    | Run Typescript file in Modern `Browser`     |
 | Project 3    | Sort array, linked-list and string; OOP     |
+| Project 4    | Enum, Type Assertion, static, Generics      |
+| Project 5    | Build a web framework                       |
 
 
 ### What is Typescript?
