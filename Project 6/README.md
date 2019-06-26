@@ -114,14 +114,5 @@ router.post("/", (req,res) => {
 - config
 - ...
 
-### Why Typescript?
-- Strict Type Annotation to debug easily
-
-### Session & Cookies
-[Express Session](https://flaviocopes.com/express-sessions/)
-
-### Decorators
-[GeekEast Decorators](https://geekeast.github.io/tsdecorators.html)
-
 ### Some Notes
 - Inspect Types: `Command` + `Left Click`

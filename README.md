@@ -168,5 +168,11 @@ class Car extends Vehicle{
 }
 ```
 
+### Session & Cookies
+[Express Session](https://flaviocopes.com/express-sessions/)
+
+### Decorators
+[GeekEast Decorators](https://geekeast.github.io/tsdecorators.html)
+
 
 
