@@ -22,6 +22,8 @@
 		"cookie-session": "^1.3.3",
 		"express": "^4.17.1",
 		"morgan": "^1.9.1",
-		"nodemon": "^1.19.1"
+		"nodemon": "^1.19.1",
+		"ts-express-decorators": "^5.20.1",
+		"tslint": "^5.18.0"
 	}
 }

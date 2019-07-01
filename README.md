@@ -1,12 +1,14 @@
 ### Project Structure
-| Project Name | Description                                 |
-| ------------ | ------------------------------------------- |
-| Project 1    | Compile and run Typecript file in `node.js` |
-| Project 2    | Run Typescript file in Modern `Browser`     |
-| Project 3    | Sort array, linked-list and string; OOP     |
-| Project 4    | Enum, Type Assertion, static, Generics      |
-| Project 5    | Build a web framework                       |
-| Project 5    | Use Typescript with Node.js                 |
+| Project Name | Description                                  |
+| ------------ | -------------------------------------------- |
+| Project 1    | Compile and run Typecript file in `node.js`  |
+| Project 2    | Run Typescript file in Modern `Browser`      |
+| Project 3    | Sort array, linked-list and string; OOP      |
+| Project 4    | Enum, Type Assertion, static, Generics       |
+| Project 5    | Build a web framework                        |
+| Project 6    | Use Typescript with Node.js                  |
+| Project 7    | Use Typescript + Decorator in Express (Hard) |
+| Project 8    | Use Typescript + React && Redux              |
 
 
 ### What is Typescript?
@@ -173,6 +175,36 @@ class Car extends Vehicle{
 
 ### Decorators
 [GeekEast Decorators](https://geekeast.github.io/tsdecorators.html)
+
+
+### Export && Import
+```javascript
+export { name1, name2, …, nameN };
+export { variable1 as name1, variable2 as name2, …, nameN };
+export let name1, name2, …, nameN; // also var
+export let name1 = …, name2 = …, …, nameN; // also var, const
+
+export default expression;
+export default function (…) { … } // also class, function*
+export default function name1(…) { … } // also class, function*
+export { name1 as default, … };
+
+export * from …;
+export { name1, name2, …, nameN } from …;
+export { import1 as name1, import2 as name2, …, nameN } from …;
+```
+
+```javascript
+import defaultMember from "module-name";
+import * as name from "module-name";
+import { member } from "module-name";
+import { member as alias } from "module-name";
+import { member1 , member2 } from "module-name";
+import { member1 , member2 as alias2 , [...] } from "module-name";
+import defaultMember, { member [ , [...] ] } from "module-name";
+import defaultMember, * as name from "module-name";
+import "module-name";
+```
 
 
 
