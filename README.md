@@ -172,11 +172,18 @@ class Car extends Vehicle{
 }
 ```
 
-### Session & Cookies
-[Express Session](https://flaviocopes.com/express-sessions/)
+### Type Declaration
+- To inspect type file: `Command` + `Click`
+```sh
+yarn add @types/faker
+```
+
 
 ### Decorators
 [GeekEast Decorators](https://geekeast.github.io/tsdecorators.html)
+
+### Session & Cookies
+[Express Session](https://flaviocopes.com/express-sessions/)
 
 
 ### Export && Import
