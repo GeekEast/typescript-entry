@@ -178,6 +178,33 @@ class Car extends Vehicle{
 yarn add @types/faker
 ```
 
+### Enum
+- **When**: declare some const that `won't` change over time
+  - you could add `enum` as a folder
+  - you could add `interface` as a folder
+```javascript
+enum MatchResult {
+	Homewin = 'H',
+	Awaywin = 'A',
+	Draw = 'D'
+}
+
+const printEnum = (): MatchResult => {
+	return MatchResult.Homewin;
+};
+```
+
+### Type Assertion
+- `<>`
+```javascript
+let x: any = "Hi there";
+let s = (<string>x).substring(0, 3);
+```
+- `as`
+```javascript
+let x: any = "Hi there";
+let s = (x as string).substring(0, 3);
+```
 
 ### Decorators
 [GeekEast Decorators](https://geekeast.github.io/tsdecorators.html)

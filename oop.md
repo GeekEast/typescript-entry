@@ -1,37 +1,27 @@
 ## Class
-### Access Manage
+### Accessor
 ```javascript
 class Company {
 	// core code 0
     private name: string;
-
-
     constructor(name: string) {
         this.name = name;
     }
-
 	// core code 1
     get companyName():string {
         return this.name;
     }
-
 	// core code 2
     set companyName(name: string){
         this.name = name;
     }
 }
-
-
 const c1 = new Company("google");
-
 // get
 console.log(c1.companyName)
 // set
 c1.companyName = "Linkedin";
 ```
-
-
-
 
 ## Interface
 - **When**: you need to **call** something common in `protocol`
@@ -98,4 +88,44 @@ class StringCollection extends Sorter {
 ```javascript
 const stringCollection = new StringCollection('aaxxaXaXbccd');
 stringCollection.sort(); // core code 
+```
+
+
+### Generics
+- Generalize something appearing many times **within** a class or a function to reuse code.
+
+#### Class Generics
+```javascript
+// -------- Class Generics ---------- //
+class HoldNumber {
+    data: number;
+}
+class HoldString {
+    data: string,
+}
+
+class HoldAnything<T> {
+    data: <T> 
+}
+const holdNumber = new HoldAnything<number>();
+```
+####  Function Generics
+```javascript
+// -------- function Generics ---------- //
+function printStrings(){}
+function printNumbers(){}
+function printAnything<T>(arr: T[]){}
+```
+#### Scope Generics by Interface
+```javascript
+// -------- Scope Generics by Interface --------- //
+function printSth<T>(arr: T[]){
+    T.print();
+}
+interface Printable{
+    print(): void;
+}
+function printSth<T extends Printable>(arr: T[]){
+    T.print();
+}
 ```
