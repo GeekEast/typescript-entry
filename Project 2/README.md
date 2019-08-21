@@ -1,16 +1,11 @@
-### Install Dependencies
-- A tool will integrate ts scripts into html file
-```sh
-yarn global add parcel-bundler
-yarn add faker
-```
 
-### Open Browser using Parcel
-- Parcel will `init npm environment` for you
-- Parcel will install `Typescript` for you
-```sh
-parcel index.html
-```
+
+- Install: `yarn global add parcel-bundler && yarn add faker`
+- Prepare: 
+  - touch `src/index.ts`
+  - touch `index.html`
+- Start: `parcel index.html`
+
 
 ### Type Definition files
 - You could use normal Javascript file in Typescript
