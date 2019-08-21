@@ -14,11 +14,13 @@
 ### What is Typescript?
 `Typescript = JavaScript + Type System`
 - [Playground](https://www.typescriptlang.org/play/index.html)
+
 ### Main Features
 - `type` annotations to analyze code and debug
 - only active during development
 - doesn't provide and performance optimization.
-
+- `Typescript` is fully compatible with `Babel 7`
+- 
 ### Types
 `Type = Blueprint = Class in Java`
 - Primitive Types:
