@@ -9,8 +9,8 @@ yarn add @types/node
 ```
 ```json
 	"scripts": {
-		"start:build": "tsc -w",
-		"start:run": "nodemon build/index.js",
+		"start:build": "tsc -w", # monitor ts 
+		"start:run": "nodemon build/index.js", # monitor js
 		"start": "concurrently npm:start:*"
 	}
 ```
